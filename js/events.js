@@ -8,8 +8,12 @@ function frameIt() {
   $('img').addClass('tasty');
 }
 
+function pressIt() {
+  $('input').on('keydown')
+}
+
 $(document).ready(function(){
   getIt();
-
+  frameIt();
 
 });
